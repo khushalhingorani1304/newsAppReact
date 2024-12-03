@@ -88,6 +88,9 @@ export class News extends Component {
                   description={element.description?element.description:""}
                   imageUrl={element.urlToImage?element.urlToImage:"https://cdn.mos.cms.futurecdn.net/QJmeBQxW8sGqyCQ45vjRs5-1200-80.jpg"}
                   newsUrl={element.url}
+                  author={element.author}
+                  date={element.publishedAt}
+                  source={element.source.name}
                 />
               </div>
           )
